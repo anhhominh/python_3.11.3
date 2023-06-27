@@ -1,0 +1,6 @@
+def capitals(word):
+    ans = []
+    for i in range(0,len(word)):
+        if(ord(word[i]) >= 65 and ord(word[i]) <= 90):
+            ans.append(i)
+    return ans
